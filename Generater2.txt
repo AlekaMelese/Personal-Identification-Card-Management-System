@@ -1,0 +1,36 @@
+<?php
+$uni_id = rand(10,99);
+
+$first = $uni_id;
+$chars_to_do = 5 - strlen($uni_id);
+for ($i = 1; $i <= $chars_to_do; $i++) { $first .= chr(rand(48,57)); }
+
+echo $first;
+
+$chars_to_do = 5 - strlen($uni_id);
+for ($i = 1; $i <= $chars_to_do; $i++) 
+{
+	if ($i == "2") { $second[] = $uni_id; }
+	$second[] = chr(rand(48,57));
+}
+
+echo "-" . implode("", $second);
+
+$chars_to_do = 5 - strlen($uni_id);
+for ($i = 1; $i <= $chars_to_do; $i++) 
+{
+	if ($i == "3") { $third[] = $uni_id; }
+	$third[] = chr(rand(48,57));
+}
+
+echo "-" . implode("", $third);
+
+$chars_to_do = 5 - strlen($uni_id);
+for ($i = 1; $i <= $chars_to_do; $i++) 
+{
+	$fourth[] = chr(rand(48,57));
+}
+$fourth[] = $uni_id;
+
+echo "-" . implode("", $fourth);
+?>

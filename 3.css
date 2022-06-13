@@ -1,0 +1,254 @@
+body
+{
+background-color:#2a2a2a;
+}
+#vtable th
+{
+border-bottom:1px solid #336699;
+border-top:1px solid #336699; 
+padding-bottom:12px;
+border-left:1px solid #336699;
+}
+
+input
+{
+font-family: times new roman;
+font-size:15px;
+}
+textarea
+{
+font-family: times new roman;
+font-size:18px;
+margin-left:10%;
+padding:7px;
+}
+.cs a:hover
+{
+	color:green;
+}
+.cs a:visited
+{
+	color:black;
+}
+.cs a:active
+{
+	color:blue;
+}
+.cs a:link
+{
+	color:green;
+}
+#tables
+{
+margin-right:10;
+margin-left:10;
+}
+.links a:hover
+{
+	color:green;
+}
+.links a:visited
+{
+	color:black;
+}
+.links a:active
+{
+	color:blue;
+}
+.links a:link
+{
+	color:black;
+}
+
+.tabl{
+width:500;
+
+font-size:12px;
+background-image:url('flowerbottom.png');
+text-align:justify;
+style-border:thick;
+border:1px solid #700000;
+text-decoration:none;
+}
+.just
+{
+text-align:justify;
+}
+#dropdown{
+	display:block;
+	float:left;
+	width:1000;
+	
+	margin:0;
+	padding:0;
+	list-style:radius;
+	font-size:15px;
+	font-weight:normal;
+	font-family:Verdana, Arial, Helvetica, sans-serif,times-new-roman;
+	color:	#606060;
+	background-color:#778899;//
+	border-radius:40px;
+	text-decoration:none;
+	}
+
+#dropdown ul, #dropdown li{
+	float:left;
+	list-style:none;
+	margin:0;
+	padding:0;
+	text-decoration:none;
+
+	}
+a:link{color:black;}
+a:active{color:blue;}
+a:hover{color:blue;}
+a:visited{color:black;}
+#dropdown li a:link, #dropdown li a:visited, #dropdown li a:hover{
+	display:block;
+	margin:0;
+	padding:15px 20px;
+	color:#000000;
+	background-color:#778899;
+	border-radius:40px;
+	text-decoration:bold;
+	font-family:Arial Black;
+	text-decoration:none;
+	//dropdown
+	}
+
+#dropdown ul ul li a:link, #dropdown ul ul li a:visited{
+	border-radius:40px;
+	text-decoration:none;
+	}
+
+#dropdown li.last a{
+	margin-right:0;
+	}
+
+#dropdown li a:hover, #dropdown ul li.active a{
+	color:#ffffff;
+	background-color:#059bd8;//color of circle
+	text-decoration:none;
+	border-radius:40px;
+	}
+	
+#dropdown li li a:link, #dropdown li li a:visited{
+	width:150px;
+	float:none;
+	margin:0;
+	padding:7px 10px;
+	font-size:12px;
+	font-weight:normal;
+	color:#FFFFFF;
+	background-color:#000000;
+	text-decoration:none;
+	
+	}
+	
+#dropdown li li a:hover{
+	color:#FFFFFF;
+	background-color:#059BD8;
+	border-radius:40px;
+	text-decoration:none;
+	}
+
+#dropdown li ul{
+	background:#000000;
+	z-index:9999;
+	position:absolute;
+	left:-999em;
+	height:auto;
+	width:170px;
+	border-left:1px solid #FFFFFF;
+	border-bottom:1px solid #FFFFFF;
+	text-decoration:none;
+	}
+
+#dropdown li ul a{width:140px;}
+
+#dropdown li ul ul{margin:-32px 0 0 0;}
+
+#dropdown li:hover ul ul{left:-999em;}
+
+#dropdown li:hover ul, #dropdown li li:hover ul{left:auto;}
+
+#dropdown li:hover{position:static;}
+
+#dropdown li.last a{margin-right:0;}
+.menu-bar a {
+  font-weight: bold;
+  font-family: arial;
+  font-style: normal;
+  font-size: 17.4px;
+  color: #ffffff;
+  text-decoration: bold;
+  display: block;
+  padding: 5px 20px 5px 20px;
+  margin: 0;
+  text-shadow: 1px 1px 1px #000000;
+ text-decoration:none;
+}
+.menu-bar a:hover {
+  background:blue !important;
+  color:#059BD8 !important;
+  border-radius: 35px;
+  text-decoration:none;
+  }
+.attach a:hover
+{
+	color:green;
+}
+.attach a:visited
+{
+	color:black;
+}
+.attach a:active
+{
+	color:blue;
+}
+.attach a:link
+{
+	color:black;
+}
+.forget a:hover
+{
+	color:green;
+}
+.forget a:visited
+{
+	color:black;
+}
+.forget a:active
+{
+	color:blue;
+}
+.forget a:link
+{
+	color:black;
+}
+#drop
+{
+border-radius:35px;
+}
+.wrong
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#FF0000;
+	text-align:left;
+	font-weight:bold;
+	padding:5px 5px 5px 25px;
+	border:#FF0000 thin solid;
+	background:#FFECEC url('error.png') left center no-repeat;
+}
+.success
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#008800;
+	text-align:left;
+	font-weight:bold;
+	padding:5px 5px 5px 25px;
+	border:#008000 thin solid;
+	background:#EAFFEA url('tick.png') left center no-repeat;
+}
